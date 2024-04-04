@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Establecimiento de Comida</title>
+    <link rel="stylesheet" type="text/css" href="Estilos/styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="JavaScript/seleccion.js"></script><!--bien-->
+</head>
+
+<body>
+    <header>
+        <h1>AROMA&ESENCIA</h1>
+    </header>
+    <section id="banner">
+        <img src="Imagenes/aromayesencia1.jpg" alt="Banner">
+        <h2>Bienvenidos a Nuestro Establecimiento</h2>
+        <p>
+        <h2>Nuestra Carta:</h2>
+        </p>
+    </section>
+    <section id="menu">
+        <div class="plato">
+            <img src="Imagenes/HAMBURGUESA.jpg" alt="Plato 1">
+            <h3>HAMBURGUESAS</h3>
+            <label for="plato1-select">Selecciona el tipo:</label>
+            <select id="plato1-select">
+                <option value="Opción1-10.99">Hamburguesas: Clasica - $50.00</option>
+                <option value="Opción2-12.99">Hamburguesas: Hawaiana - $60.00</option>
+                <option value="Opción3-9.99"> Hamburguesas: Suprema - $70.00</option>
+            </select>
+            <button class="boton_carrito" onclick="enviarInfo(this)">Agregar</button>
+        </div>
+
+        <div class="plato">
+            <img src="Imagenes/im1.jpeg" alt="Plato 1">
+            <h3>HOT-DOG</h3>
+            <label for="plato1-select">Selecciona el tipo:</label>
+            <select id="plato1-select">
+                <option value="Opción1-10.99">HOT-DOG Clasico - $45.00</option>
+                <option value="Opción2-12.99">HOT-DOG Hawaiano - $50.00</option>
+            </select>
+            <button class="boton_carrito" onclick="enviarInfo(this)">Agregar</button>
+        </div>
+        <div class="plato">
+            <img src="Imagenes/im1.jpeg" alt="Plato 1">
+            <h3>SINCRONIZADAS</h3>
+            <label for="plato1-select">Selecciona el tipo:</label>
+            <select id="plato1-select">
+                <option value="Opción1-10.99">SINCRONIZADA Clasica - $40.00</option>
+            </select>
+            <button class="boton_carrito" onclick="enviarInfo(this)">Agregar</button>
+        </div>
+        <div class="plato">
+            <img src="Imagenes/WAFFLES.jpg" alt="Plato 1">
+            <h3>WAFFLES</h3>
+            <label for="plato1-select">Selecciona el tipo:</label>
+            <select id="plato1-select">
+                <option value="Opción1-10.99"> WAFFLES: Fresa&Durazno - $40.00</option>
+            </select>
+            <button class="boton_carrito" onclick="enviarInfo(this)">Agregar</button>
+        </div>
+        <div class="plato">
+            <img src="Imagenes/FRAPPE.jpg" alt="Plato 1">
+            <h3>FRAPPES</h3>
+            <label for="plato1-select">Selecciona el tipo:</label>
+            <select id="plato1-select">
+
+                <option value="Opción1-10.99">FRAPPE Oreo - $50.00</option>
+            </select>
+            <br>
+            <button class="boton_carrito" onclick="enviarInfo(this)">Agregar</button>
+
+        </div>
+        <div class="plato">
+            <img src="Imagenes/PAPAS.jpg" alt="Plato 1">
+            <h3>Platanos</h3>
+            <label for="plato1-select">Selecciona el tipo:</label>
+            <select id="plato1-select">
+                <option value="Opción1-10.99">Platanos Fritos- $10.99</option>
+                <option value="Opción2-12.99">Papas a la francesa- $12.99</option>
+            </select>
+            <button class="boton_carrito" onclick="enviarInfo(this)">Agregar</button>
+        </div>
+        <div class="botones">
+            <p><a href="carrito.html" class="boton_carrito">Ver el Carrito</a></p>
+            <p><a href="imprimirTicket.html" class="boton_carrito"> ver ticket</a></p>
+        </div>
+
+    </section>
+    <script src="JavaScript/carrito.js"></script>
+    <footer>
+
+        <p class="pie">CopyRigth @Aroma&Esencia</p>
+        <div class="iconos">
+            <a href="https://www.facebook.com/"><i class='bx bxl-facebook-circle'></i></a>
+            <a href="https://www.instagram.com/"><i class='bx bxl-instagram-alt'></i></a>
+            <a href="https://whatsapp.com"> <i class='bx bxl-whatsapp-square'></i></a>
+
+        </div>
+    </footer>
+</body>
+
+</html>

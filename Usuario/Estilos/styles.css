@@ -1,0 +1,155 @@
+/* Estilos generales */
+:root {
+    --letras: #ffffff;
+    --fondo: #f5e1ce;
+    --encabezado: #e8c39e;
+    --sombraycortorno: #b08e6b;
+    --contornosycontornos: #7a5c3c;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#banner {
+    position: relative;
+    background-color: var(--encabezado);
+    /* Agrega el color de fondo gris que desees */
+    padding: 20px;
+    /* Ajusta el relleno según sea necesario */
+    text-align: center;
+    /* Centra el texto horizontalmente */
+}
+
+#banner img {
+    width: 100%;
+    /* Ocupa todo el ancho disponible */
+    height: 300px;
+    /* Altura específica */
+    object-fit: cover;
+    /* Escala la imagen para cubrir todo el contenedor */
+    display: block;
+    /* Asegura que la imagen esté centrada verticalmente */
+    margin: auto;
+    /* Centra la imagen horizontalmente */
+}
+
+
+#banner {
+    position: relative;
+}
+
+#banner {
+    background-color: var(--encabezado);
+    /* Agrega el color de fondo gris que desees */
+    padding: 20px;
+    /* Ajusta el relleno según sea necesario */
+    text-align: center;
+    /* Centra el texto horizontalmente */
+}
+
+#banner h2 {
+    color: var(--letras);
+    font-size: 24px;
+    text-shadow: 2px 2px 4px rgb(10, 9, 9);
+}
+
+
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    background-image: url('');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    background-color: var(--encabezado);
+    color: #1b1a1a;
+    padding: 10px;
+}
+
+/* Estilos para el menú */
+#menu {
+    margin: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: var(--sombraycortorno);
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 20px;
+    border-style: double;
+    border-bottom-left-radius: 0%;
+    border-color: rgb(196, 154, 181);
+}
+
+.plato {
+    border: 2px solid #ddd;
+    padding: 5px;
+    margin: 10px;
+    text-align: center;
+    max-width: 250px;
+    background-color: var(--fondo);
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.plato:hover {
+    transform: scale(1.05);
+}
+
+.plato img {
+    width: 80%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Estilos para el botón de ver carrito */
+.boton_carrito {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: var(--contornosycontornos);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+
+
+}
+
+.boton_carrito:hover {
+    background-color: #407c38;
+}
+
+.botones {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.iconos {
+    margin-top: 10px;
+    /* Espacio entre los iconos y el contenido superior */
+    color: rgb(237, 14, 14);
+    /* Color de los iconos */
+    font-size: 40px;
+    /* Tamaño de fuente de los iconos */
+    margin: 0 10px;
+    /* Espacio horizontal entre los iconos */
+    transition: color 0.3s ease-in-out;/
+}
+
+.iconos a:hover {
+    color: gray;
+    /* Color de los iconos al pasar el ratón por encima */
+}
